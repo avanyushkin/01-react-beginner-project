@@ -1,0 +1,32 @@
+.reactLogo {
+    width: 40px;
+}
+
+.needHorizontal {
+    display: flex;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.left-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;   
+    margin-left: 20px;
+}
+.right-group {
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}

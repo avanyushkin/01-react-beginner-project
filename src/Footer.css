@@ -1,0 +1,15 @@
+.rotating-image {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  display: block;
+}
+
+.rotating-image:active {
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

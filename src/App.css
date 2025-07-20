@@ -1,0 +1,17 @@
+.text {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.question {
+    font-size: 70px;
+}
+
+li {
+    color: white;
+    font-size: 25px;
+}
+
+ul li::marker {
+    /*color: red;*/
+    color: rgb(0, 216, 255);
+}
